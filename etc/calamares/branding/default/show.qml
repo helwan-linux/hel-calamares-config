@@ -37,15 +37,14 @@ Presentation
         id: background1
         source: "1.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background1.horizontalCenter
+        anchors.top: background1.bottom
         text: "Welcome to"
         wrapMode: Text.WordWrap
         width: presentation.width
@@ -62,24 +61,22 @@ Presentation
         id: background2
         source: "2.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "Helwan-Linux"
+        anchors.horizontalCenter: background2.horizontalCenter
+        anchors.top: background2.bottom
+        text: "HELWAN LINUX"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
     	}
     }
 
-
-Slide {
+    Slide {
 
     anchors.fill: parent
     anchors.verticalCenterOffset: 0
@@ -88,14 +85,22 @@ Slide {
         id: background3
         source: "3.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background3.horizontalCenter
+        anchors.top: background3.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
 
-Slide {
+    Slide {
 
     anchors.fill: parent
     anchors.verticalCenterOffset: 0
@@ -104,13 +109,21 @@ Slide {
         id: background4
         source: "4.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background4.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
-    
+
     Slide {
 
     anchors.fill: parent
@@ -120,14 +133,22 @@ Slide {
         id: background5
         source: "5.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background5.horizontalCenter
+        anchors.top: background5.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
     
-    Slide {
+Slide {
 
     anchors.fill: parent
     anchors.verticalCenterOffset: 0
@@ -136,13 +157,21 @@ Slide {
         id: background6
         source: "6.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background6.horizontalCenter
+        anchors.top: background6.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
-    
+
     Slide {
 
     anchors.fill: parent
@@ -152,13 +181,21 @@ Slide {
         id: background7
         source: "7.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background7.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
-    
+
     Slide {
 
     anchors.fill: parent
@@ -168,13 +205,21 @@ Slide {
         id: background8
         source: "8.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background8.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
-    
+
     Slide {
 
     anchors.fill: parent
@@ -184,13 +229,21 @@ Slide {
         id: background9
         source: "9.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background9.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
-    
+
     Slide {
 
     anchors.fill: parent
@@ -200,12 +253,21 @@ Slide {
         id: background10
         source: "10.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background10.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
+
     Slide {
 
     anchors.fill: parent
@@ -215,13 +277,21 @@ Slide {
         id: background11
         source: "11.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background11.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
-    
+
     Slide {
 
     anchors.fill: parent
@@ -231,13 +301,21 @@ Slide {
         id: background12
         source: "12.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
+
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background12.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
-    
+
     Slide {
 
     anchors.fill: parent
@@ -247,14 +325,20 @@ Slide {
         id: background13
         source: "13.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
-    }
-    
 
+    Text {
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background13.bottom
+        text: ""
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
+    }
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
     //
