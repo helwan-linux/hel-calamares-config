@@ -45,7 +45,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background1.horizontalCenter
         anchors.top: background1.bottom
-        text: "Welcome to"
+        text: ""
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
