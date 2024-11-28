@@ -159,7 +159,7 @@ strings:
 images:
     productBanner:       "banner.png"
     productIcon:             "logo.png"
-    productLogo:            "logo.png"
+    productLogo:            "squid.png"
    # productWallpaper:    "wallpaper.png"
     productWelcome:     "wallpaper.png"
 
