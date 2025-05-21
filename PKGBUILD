@@ -2,7 +2,7 @@
 pkgname=hel-calamares-config
 _destname1="/etc"
 pkgver=1.0
-pkgrel=01
+pkgrel=02
 pkgdesc="calamares for Helwan"
 arch=('any')
 url="https://github.com/helwan-linux"
