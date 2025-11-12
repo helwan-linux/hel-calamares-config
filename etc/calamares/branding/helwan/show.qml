@@ -289,6 +289,26 @@ Slide
             anchors.fill: parent
         }
     }
+    
+    
+    Slide
+    {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+        Image
+        {
+            id: background155
+            source: "slide155.png"
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+    }
+    
+    
 
 Slide
     {
