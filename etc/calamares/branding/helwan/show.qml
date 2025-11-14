@@ -298,8 +298,8 @@ Slide
 
         Image
         {
-            id: background155
-            source: "slide155.png"
+            id: background24
+            source: "slide24.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
